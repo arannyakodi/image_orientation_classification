@@ -1,0 +1,22 @@
+Model directory :
+Contains the convolutional neural network model
+
+Rotation directory :
+Purpose of this directory is to prepare training dataset
+
+test_dataset directory :
+Contains test image
+
+train dataset:
+Contains training dataset I have used
+    i.e: Image name : pic00001_270 include original image name and the rotated angle (both separated by '_')
+
+mlb.pickle : serialized labeling
+
+sertis_model_e100_b20.model : serialized model on epochs 100 and batch size 20
+
+train.py : class for train the dataset (simply python train.py would do the work)
+
+classify.py : class for classification (simply python classify.py would do the work)
+
+

@@ -1,0 +1,4 @@
+training_dataset/
+venv/
+src/sertis_model_e100_b20.model
+.idea/
